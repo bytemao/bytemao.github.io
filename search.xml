@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Win10 activation]]></title>
+    <url>%2F2018%2F10%2F31%2FWin10-activation%2F</url>
+    <content type="text"><![CDATA[Win10 Activation Run the cmd.exe as an administrator cmd.exe Uninstall old product key slmgr.vbs /upk Install new product key slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX Set the key management service computer name slmgr /skms zh.us.to Activate Windows10 slmgr /ato]]></content>
+      <categories>
+        <category>Windows10</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[[LeetCode] 3. Longest Substring Without Repeating Characters]]></title>
     <url>%2F2018%2F10%2F29%2FLeetCode-3-Longest-Substring-Without-Repeating-Characters%2F</url>
     <content type="text"><![CDATA[[Problem]Given a string, find the length of the longest substring without repeating characters. Example 1: Input: “abcabcbb”Output: 3Explanation: The answer is “abc”, with the length of 3.Example 2: Input: “bbbbb”Output: 1Explanation: The answer is “b”, with the length of 1.Example 3: Input: “pwwkew”Output: 3Explanation: The answer is “wke”, with the length of 3. Note that the answer must be a substring, “pwke” is a subsequence and not a substring. [Solution]12345678910111213141516class Solution &#123; public int lengthOfLongestSubstring(String s) &#123; if (s == null || s.length() == 0) return 0; Map&lt;Character, Integer&gt; map = new HashMap&lt;Character, Integer&gt;(); int maxLen = 0; for (int i = 0, j = 0; i &lt; s.length(); ++i) &#123; if (map.containsKey(s.charAt(i))) &#123; j = Math.max(j, map.get(s.charAt(i))+1); &#125; map.put(s.charAt(i), i); maxLen = Math.max(maxLen, i-j+1); &#125; return maxLen; &#125;&#125;]]></content>
