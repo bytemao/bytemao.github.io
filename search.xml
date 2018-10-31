@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Win10 activation]]></title>
-    <url>%2F2018%2F10%2F31%2FWin10-activation%2F</url>
+    <title><![CDATA[Win10 Activation]]></title>
+    <url>%2F2018%2F11%2F01%2FWin10-Activation%2F</url>
     <content type="text"><![CDATA[Win10 Activation Run the cmd.exe as an administrator cmd.exe Uninstall old product key slmgr.vbs /upk Install new product key slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX Set the key management service computer name slmgr /skms zh.us.to Activate Windows10 slmgr /ato]]></content>
       <categories>
-        <category>Windows10</category>
+        <category>Windows</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
+        <tag>Windows10</tag>
       </tags>
   </entry>
   <entry>
